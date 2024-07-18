@@ -1,12 +1,9 @@
 set nocompatible 
 " above forces this vimrc to load " 
 
-" enable pathogen to manage runtimepath
-filetype off
-execute pathogen#infect()
-
 " enable syntax highlighting and disable closing buffer
 syntax on
+filetype off
 set hidden
 
 " enable mouse, because im not a power vim user (yet)
